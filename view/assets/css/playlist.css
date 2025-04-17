@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0E1725;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #DAE3E5;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 220px;
+    background-color: #17263B;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+
+
+    .reproduzir {
+        position: absolute;
+        bottom: -33px;
+        width: 100%;
+        padding: 10px 0;
+        color: white;
+        background-color: #5386E4;
+        letter-spacing: 1px;
+        transition: .3s ease;
+        cursor: pointer;
+        font-size: 13px;
+        left: 0;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+.card:hover .reproduzir {
+    bottom: 0;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #aaaaaa;
+}
