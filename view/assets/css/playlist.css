@@ -1,14 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
+main {
     background-color: #0E1725;
     color: #fff;
-    padding: 30px 20px;
+    padding: 60px 20px;
 }
 
 h1 {
@@ -83,4 +83,36 @@ h1 {
 .card p {
     font-size: 0.95rem;
     color: #aaaaaa;
+}
+
+nav{
+    display: flex;
+    background: linear-gradient(to bottom, #17263B, #345693 );
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        margin: 5%;
+
+        li {
+            list-style-type: none;
+        }
+
+        a{
+            text-decoration: none;
+            color:  #fff;
+            font-size: 20px;
+            letter-spacing: 4px;
+        }
+
+        li:hover a {
+            color: #5386E4;
+        }
+    }
+
 }
