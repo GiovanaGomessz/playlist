@@ -6,10 +6,13 @@
 }
 
 main {
+    display: flex;
     background-color: #0E1725;
     color: #fff;
-    padding: 80px 20px;
+    padding: 60px 20px;
     height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -52,62 +55,32 @@ nav{
 
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #0f1116;
-    color: #fff;
-    margin: 0;
-  }
-
-  h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  .container {
+.container {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    /* background-color: #073158fa; */
+    width: 700px;
+    height: 500px;
+    border-radius: 7px;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-  }
-  
-  .card {
-    background-color: #1a1c23;
-    border-radius: 12px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
-    width: 90%;
-  }
-  
-  .card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 3px;
-    object-fit: cover;
-  }
-  
-  .card-info {
-    display: flex;
     flex-direction: column;
-  }
-  
-  .card-info h3 {
-    margin: 0;
-    font-size: 1.1em;
-    color: #fff;
-  }
-  
-  .card-info p {
-    margin: 4px 0;
-    color: #ccc;
-  }
-  
-  .card-info a {
-    color: #3b82f6;
-    text-decoration: none;
-    font-size: 0.9em;
-  }
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    input {
+        width: 400px;
+        height: 40px;
+        margin: 6px;
+        border-radius: 10px;
+    }
+
+    button {
+        width: 200px;
+        font-size: 20px;
+        background-color: #5386E4;
+    }
+}
