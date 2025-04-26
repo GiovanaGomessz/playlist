@@ -27,7 +27,6 @@ require_once '../components/criar-input.php';
                     echo criar_input('number', 'CPF');
                     echo criar_input('tel', 'Telefone');
                     echo salvar ('Salvar', 'submit')
-
                     ?>
             </form>
 

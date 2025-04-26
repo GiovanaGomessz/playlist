@@ -57,13 +57,18 @@ nav{
 
 .container {
     display: flex;
-    /* background-color: #073158fa; */
-    width: 700px;
+    background:#1a1c23;
+    width: 500px;
     height: 500px;
     border-radius: 7px;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+}
+
+.botao{
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 700px;
 }
 
 .inputs{

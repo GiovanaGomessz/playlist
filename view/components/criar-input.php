@@ -12,8 +12,7 @@ function criar_input($tipo, $plac)
 function salvar ($nome, $tipo)
 {
     return  "
-    <button type='$tipo'> $nome</button>
-    
+    <button class='botao' type='$tipo'> $nome</button
     ";
 }
 
